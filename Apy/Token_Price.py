@@ -25,7 +25,7 @@ def price(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     # Token bot Telegram, dapatkan dari BotFather
-    updater = Updater(token='YOUR_TELEGRAM_BOT_TOKEN', use_context=True)
+    updater = Updater(token='7159157442:AAGmEPMlwaPDtw28sdmqR6cdkUKCMv_JqAM', use_context=True)
     dispatcher = updater.dispatcher
 
     # Menambahkan handler untuk perintah /price
